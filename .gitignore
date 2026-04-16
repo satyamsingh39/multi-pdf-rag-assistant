@@ -1,0 +1,30 @@
+# Python cache and build artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Local environment files
+.env
+.env.*
+
+# Streamlit and local app data
+.streamlit/secrets.toml
+faiss_index/
+
+# Test and tooling caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Editors and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
